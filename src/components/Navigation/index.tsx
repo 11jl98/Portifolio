@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <nav className="navbar">
       <h1 className="navbar-logo">
-        <img src={nameLogo} className="navbar-logo-text" alt="" />
+        <img src={'./' + nameLogo} className="navbar-logo-text" alt="" />
       </h1>
       <nav className="navbar-menu">
         <ul>

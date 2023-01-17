@@ -1,0 +1,71 @@
+.conatainer-welcome-mobile{
+    width: 100%;
+    height:calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+}
+
+.text-description-mobile{
+    color: #fffafa;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 3px ;
+    padding: 0;
+}
+
+.name-mobile{
+    color: #00ce36;
+    margin:0 ;
+    padding: 0;
+    font-size: 55px;
+    -webkit-text-stroke: 1px #FFF;
+    text-stroke: 1px #FFF;
+
+}
+
+.container-description-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-user-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-about-mobile{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    color: #fffafa;
+    border: none;
+    position: relative;
+    top: 350px;
+    cursor: pointer;
+    transition: ease;
+    transform-origin: left;
+    text-decoration: none;
+
+
+}
+.button-about-mobile::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #00ce36;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: left;
+    transition: scale 0.35s;
+}
+.button-about-mobile:hover::before{
+    scale: 1;
+}

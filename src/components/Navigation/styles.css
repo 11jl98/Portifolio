@@ -57,7 +57,7 @@ li a:hover::before{
     scale: 1;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
 
     .navbar-menu {
       display: none;
