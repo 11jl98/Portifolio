@@ -12,8 +12,8 @@
 }
 
 .card-project{
-    width: 440px;
-    height: 310px;
+    width: auto;
+    height: auto;
     background: rgb(0,206,54);
     background: linear-gradient(318deg, rgba(0,206,54,1) 12%, rgba(0, 0, 0, 0.89) 52%, rgba(0,206,54,1) 95%);
     color: #fffafa;
@@ -62,3 +62,54 @@
     margin: 0;
 }
 
+@media (max-width: 1300px) {
+
+    .card-project {
+        width: 345px;
+        height: 300px;
+        background: rgb(0,206,54);
+        background: linear-gradient(318deg, rgba(0,206,54,1) 12%, rgba(0, 0, 0, 0.89) 52%, rgba(0,206,54,1) 95%);
+        color: #fffafa;
+        border: 1px solid #fffafa;
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+    }
+    .container-project{
+        height:auto;
+    }
+    
+}
+
+@media (max-width: 900px) {
+
+    .card-project {
+        width: 300px;
+        height: 300px;
+        background: rgb(0,206,54);
+        background: linear-gradient(318deg, rgba(0,206,54,1) 12%, rgba(0, 0, 0, 0.89) 52%, rgba(0,206,54,1) 95%);
+        color: #fffafa;
+        border: 1px solid #fffafa;
+        transition: 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container-project{
+        height:auto;
+    }
+}

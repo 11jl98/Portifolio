@@ -13,9 +13,9 @@ export default function Welcome() {
           <h4 className="text-description-mobile">Sou desenvolvedor fullstack</h4>
         </div>
       </div>
-      <a href="#about" className="button-about-mobile">
+      {/* <a href="#about" className="button-about-mobile">
         Sobre
-      </a>
+      </a> */}
     </div>
   );
 }

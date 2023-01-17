@@ -34,10 +34,10 @@
 }
 
 .title-about-mobile{
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
     text-align: center;
-    background-image: linear-gradient(0deg, rgba(10,10,10,1) 22%, #fffafa 100%);
+    background-image: linear-gradient(0deg, rgba(10,10,10,1) 10%, #fffafa 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
