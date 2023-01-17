@@ -56,3 +56,10 @@ li a::before{
 li a:hover::before{
     scale: 1;
 }
+
+@media (max-width: 480px) {
+
+    .navbar-menu {
+      display: none;
+    }
+}

@@ -139,3 +139,27 @@
 .about-hidden{
     visibility: hidden;
 }
+
+@media (max-width: 1308px) {
+
+    .container-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text,.text-2{
+        font-size: 18px;
+
+    }
+    .about-avatar{
+        height: calc(40vh);
+    }
+    .title-about{
+        margin-bottom: 0;
+    }
+    .about-stacks{
+    flex-direction: column;
+
+    }
+}
