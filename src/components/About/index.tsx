@@ -20,7 +20,7 @@ export default function About() {
           <div className="container-avatar-description">
             <img
               className="imagem-user"
-              src={avatarProfile}
+              src={"./"+ avatarProfile}
               alt=""
             />
             <p className="text">
