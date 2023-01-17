@@ -22,3 +22,14 @@ body{
   height: 0
 }
 
+@media (max-width: 550px) {
+
+  body{
+    background-image: linear-gradient(180deg,rgba(10,10,10,1) 0%,rgba(63,62,62,.04805672268907568) 54%,rgba(10,10,10,1) 100%),url(https://png.pngtree.com/background/20211216/original/pngtree-binary-technology-background-picture-image_1549414.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
