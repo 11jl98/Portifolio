@@ -142,6 +142,9 @@
 
 @media (max-width: 1308px) {
 
+    .container-global-about{
+        height: auto;
+    }
     .container-about{
         display: flex;
         flex-direction: column;
