@@ -12,8 +12,8 @@
 }
 
 .card-project{
-    width: auto;
-    height: auto;
+    width: 440px;
+    height: 310px;
     background: rgb(0,206,54);
     background: linear-gradient(318deg, rgba(0,206,54,1) 12%, rgba(0, 0, 0, 0.89) 52%, rgba(0,206,54,1) 95%);
     color: #fffafa;
