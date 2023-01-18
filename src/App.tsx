@@ -7,6 +7,7 @@ import Contacts from "./components/Contacts";
 import WelcomeMobile from "./components/Welcome/versionMobile";
 import AboutMobile from "./components/About/versionMobile";
 import ProjectMobile from "./components/Projects/versionMobile";
+import ContactsMobile from "./components/Contacts/versionMobile";
 
 import "./App.css";
 
@@ -27,6 +28,7 @@ function App() {
           <WelcomeMobile />
           <AboutMobile />
           <ProjectMobile />
+          <ContactsMobile />
         </>
       ) : (
         <>
