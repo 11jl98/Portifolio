@@ -26,7 +26,7 @@ export default function About() {
             <p className="text">
               Vindo de Mariana - MG, formado em Mineração pelo Instituto Federal
               de Minas Gerais, decidi mudar os ares e conhecer novos caminhos, e
-              foi assim que parei em Sistemas de infomação na minha graduação.
+              foi assim que parei em Sistemas de Infomação na minha graduação.
               Formado pela FDV (Faculdade de Viçosa), venho atuando no setor de
               tecnologia desde os primeiros periodos, onde me encantei pela
               tecnologia e decidi que seria a minha carreira. Enfrentei diversos
@@ -36,12 +36,13 @@ export default function About() {
             </p>
           </div>
           <p className="text-2">
-            Atualmente tenho 3 e meio de experiencia como desenvolvedor, e
-            muitas garrafas de café tomadas :D, autando com linguagens com C#,
+            Atualmente tenho 3 e meio de experiência como desenvolvedor, e
+            muitas garrafas de café tomadas :D, atuando com linguagens com C#,
             onde foi a minha primeira experiência, logo após, migrei me para um
             novo desafio, e atualmente sou desenvolvedor na Compass.UOL, uma
             empresa de consutoria da tecnologia, estou alocado no cliente
-            Telefônica VIVO.
+            Telefônica VIVO, atuando Com microserviços e bffs em node e micro frontend
+             em vue.js.
           </p>
           <p className="text-2">
             Com minha experiência me coloco dispor de ajudar, ensinar, e fazer

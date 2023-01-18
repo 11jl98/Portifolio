@@ -7,20 +7,19 @@ import {
 } from "react-icons/tb";
 import { SiMysql, SiNodedotjs, SiTypescript, SiDocker } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import avatarProfile from "../../../assets/profile.jpeg"
+import avatarProfile from "../../../assets/profile.jpeg";
 
 export default function About() {
-
   return (
     <div className={`container-global-about-mobile`} id="about">
       <h1 className="title-about-mobile">Sobre mim</h1>
-      <div className="container-about-mobile" >
+      <div className="container-about-mobile">
         <div className="about-avatar-mobile">
           <h1 className="title-description-mobile">Quem sou</h1>
           <div className="container-avatar-description-mobile">
             <img
               className="imagem-user-mobile"
-              src={'./' + avatarProfile}
+              src={"./" + avatarProfile}
               alt=""
             />
             <p className="text-mobile">
@@ -36,12 +35,13 @@ export default function About() {
             </p>
           </div>
           <p className="text-mobile">
-            Atualmente tenho 3 e meio de experiencia como desenvolvedor, e
-            muitas garrafas de café tomadas :D, autando com linguagens com C#,
+            Atualmente tenho 3 e meio de experiência como desenvolvedor, e
+            muitas garrafas de café tomadas :D, atuando com linguagens com C#,
             onde foi a minha primeira experiência, logo após, migrei me para um
             novo desafio, e atualmente sou desenvolvedor na Compass.UOL, uma
             empresa de consutoria da tecnologia, estou alocado no cliente
-            Telefônica VIVO.
+            Telefônica VIVO, atuando Com microserviços e bffs em node e micro
+            frontend em vue.js.
           </p>
           <p className="text-mobile">
             Com minha experiência me coloco dispor de ajudar, ensinar, e fazer
