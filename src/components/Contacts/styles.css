@@ -21,6 +21,8 @@
 .text-contact{
     text-decoration: none;
     color: #fffafa;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon-contact{
