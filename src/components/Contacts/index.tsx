@@ -14,20 +14,28 @@ export default function Contacts() {
                     </a>
                 </div>
                 <div className="item-text">
-                    <FaInstagram className="icon-contact" size={55} />
-                    <a href="" className="text-contact">Instagram</a>
+                    <a href="" className="text-contact">
+                        <FaInstagram className="icon-contact" size={55} />
+                        Instagram
+                    </a>
                 </div>
                 <div className="item-text">
-                    <FaGithubSquare className="icon-contact" size={55} />
-                    <a href="" className="text-contact">Github</a>
+                    <a href="" className="text-contact">
+                        <FaGithubSquare className="icon-contact" size={55} />
+                        Github
+                    </a>
                 </div>
                 <div className="item-text">
-                    <FaFacebookSquare className="icon-contact" size={55} />
-                    <a href="" className="text-contact">Facebook</a>
+                    <a href="" className="text-contact">
+                        <FaFacebookSquare className="icon-contact" size={55} />
+                        Facebook
+                    </a>
                 </div>
                 <div className="item-text">
-                    <FaRegEnvelope className="icon-contact" size={55} />
-                    <a href="" className="text-contact">Email</a>
+                    <a href="" className="text-contact">
+                        <FaRegEnvelope className="icon-contact" size={55} />
+                        Email
+                    </a>
                 </div>
             </div>
         </div>
