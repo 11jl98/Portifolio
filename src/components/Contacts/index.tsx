@@ -38,6 +38,23 @@ export default function Contacts() {
                     </a>
                 </div>
             </div>
+            <div className="form-email">
+                <div className="container-inputs">
+                    <label htmlFor="">Email</label>
+                    <input type="text" className="input-text" />
+                </div>
+                <div className="container-inputs">
+                    <label htmlFor="">Nome</label>
+                    <input type="text" className="input-text" />
+                </div>
+                <div className="container-inputs">
+                    <label htmlFor="">Corpo do email</label>
+                    <input type="textarea" className="input-text" />
+                </div>
+                <div className="container-inputs">
+                  <button>Enviar</button>
+                </div>
+            </div>
         </div>
     );
 }
